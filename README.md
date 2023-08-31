@@ -57,8 +57,6 @@ Siga estas etapas para configurar e executar o projeto em sua máquina local:
 
 2. Crie um novo banco de dados com o nome `oficina`.
 
-3. Configure o usuário como "root" e deixe a senha em branco, ou defina uma senha de acordo com suas preferências, e atualize as informações no arquivo `backend/db/conn.js`.
-
 ### Configurando o Backend
 
 1. Navegue até a pasta `backend`.
