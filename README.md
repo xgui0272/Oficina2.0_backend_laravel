@@ -62,10 +62,9 @@ Siga estas etapas para configurar e executar o projeto em sua máquina local:
 ### Configurando o Backend
 
 1. Navegue até a pasta `backend`.
-
-2. Instale as dependências necessárias executando o comando `npm install`.
-
-3. Após a instalação das dependências, inicie o servidor do Laravel com o comando `php artisan serve`.
+2. Inicie o servidor do Laravel com o comando `php artisan serve`.
+3. Certifique-se de configurar a conexão com o banco de dados no arquivo .env.
+4. Não esqueça de configurar o endereço do frontend no arquivo de configuração cors /config/cors.php - 'allowed_origins' => ['http://localhost:3000'], linha 22.
 
 ### Configurando o Frontend
 
