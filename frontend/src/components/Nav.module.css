@@ -1,0 +1,148 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #696969;
+    height: 140px;
+    position: relative;
+
+}
+
+.nav1 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40px;
+    background-color: #696969;
+    margin-top: 15px;
+    
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 20%;
+    margin-left: 5em;
+    
+
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #FFF;
+    
+
+}
+
+.car {
+    color: #FFF;
+    width: 30px;
+    height: 40px;
+
+    
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFF;
+    border-radius: 30px;
+    width: 40em;
+    height: 40px;
+    position: relative;
+}
+
+.searchBar input {
+    height: 20px;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    left: .7em;
+   
+}
+
+
+
+.searchBar input::placeholder {
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    top: 2px;
+}
+
+.searchBar input:focus {
+    outline: none;
+   
+}
+
+.lupa {
+    position: absolute;
+    top: 10px;
+    right: 2%;
+}
+
+.no_decoration {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navlink{
+    margin-left: 40px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: #FFF
+}
+
+
+
+.nav + span {
+    margin-left: 10px;
+}
+
+.searchData {
+    display: flex;
+    align-items: center;
+    gap: 10px
+    
+    
+}
+
+.searchData label { 
+    font-style: italic;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.searchData input {
+    
+}
+
+.lupaData {
+    width: 5em;
+    height: 20px;
+    color: white;
+}
+
+.links {
+    margin-top: 6px;
+}
+
